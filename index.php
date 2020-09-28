@@ -1,9 +1,10 @@
 <html>
-<body>
-<form method="POST" action="gravar.php">  Nome: 
-<input type="text" name="nome" size="20">
+<body background="https://i.ytimg.com/vi/ZPjHlGWHZio/maxresdefault.jpg" text="white">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<form method="POST" action="gravar.php" style="font-size:30px; text-align:center;">  Nome: 
+<input type="text" name="nome" size="30">
 </p>  <p>
-<input type="submit" value="Enviar">
+<input style="font-size:30px" type="submit" value="Enviar">
 </p>
 </form>
 </body>

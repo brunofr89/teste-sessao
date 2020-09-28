@@ -4,14 +4,16 @@ session_start();
 session_destroy();
  
 //prontinho acima acabamos com todas as sessões existentes!
-echo "Voce saiu com sucesso!";
+echo "<font size=5><center><br><br><br>Voce saiu com sucesso!</center></font>";
 ?>
 <!DOCTYPE html>
-<body>
+<html>
+<body background="https://i.ytimg.com/vi/ZPjHlGWHZio/maxresdefault.jpg" text="white">
 </form>
 </br>
 <p></p>
-<form method="POST" action="index.php">
-<input type="submit" value="voltar">
+<form method="POST" action="index.php" style="font-size:30px; text-align:center;">
+<input type="submit" value="Voltar" style="font-size:30px;">
 </form>
-<body>
+</body>
+</html>
